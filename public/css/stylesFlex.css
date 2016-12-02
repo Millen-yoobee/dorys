@@ -1,0 +1,109 @@
+ * {
+	font-family: /*Copperplate Gothic Light,*/ Verdana, Helvetica, Arial, Courier, Palatino, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#busName {
+	color:  #d60000;   /*pomelo red*/
+}
+				/*	other colours		*/
+	/*#d30202;*/
+	 /*#f1edea;				*/
+	 /* #c4d186  is avocado green */
+	/* #889702  is green beans green */		/* #435200  is dark green */
+	/* #fedda1  is light yellow 			/* #ffde52  is yellow
+	/* #ffb300  is orangy yellow
+	/* #d60000  is bright red 				/* #e56d6f  is pomelo red
+	/* #f69075  is light pomelo red 		/* #f8b390  is tan pomelo
+	#e8d9db									#f1edea
+}
+hr {
+	color: red;
+}
+.wrapper {
+	width: 95%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+			/*  menu based styles*/
+body {
+	width: 95%;
+
+	max-width: 960px;
+	margin: 0 auto;
+	background #e7eceb;
+
+	/*#e8d9db; ???*/
+	/*#fedda1; light yellow*/
+	/*#d6dbd7;*/
+	/*#e7eceb;  light bluish*/
+	/*#b6d1df*/;
+	/*#fedda1; light yellowish*/
+	/*#fcfbe5;*/
+}
+
+#logo {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav {
+	/*background: yellow;*/
+}
+#burger {
+	float: right;
+}
+
+nav ul {
+	list-style-type: none;
+	display: none;
+	
+}
+
+nav a {
+	text-decoration: none;
+	text-align: center;
+/*	color: #d60000;   pomelo red*/
+	display: block;
+	padding: 10px;
+}
+
+nav a:hover {
+	font-weight: bold;
+ 	font-size:  large;
+}
+
+		/*	flex list-style-position: */
+@media all and (min-width: 900px) {
+
+	#burger {
+		display: none;
+	}
+
+	nav {
+		display: flex;
+		justify-content: space-between;
+	}
+	nav ul {
+		display: flex;
+		/*justify-content: center;*/
+		/*justify-content: flex-end;*/
+		/*justify-content: flex-start;*/
+		justify-content: space-between;
+
+	}
+
+	nav li {
+  
+	}
+
+	footer { 
+		clear: both;
+		display: flex;
+		justify-content: space-between;
+	}	
+
+
+}

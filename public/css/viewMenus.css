@@ -1,0 +1,46 @@
+
+h2 {
+	text-align: center;	
+}
+img {
+	max-width: 100%;
+}
+
+#menus {
+	font-weight:  bold;
+
+}
+
+
+.latest {
+	height:  350px;
+}
+
+
+#dishprice {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@media all and (min-width: 960px) {
+
+	h2 {
+		display: none;
+	}
+	.latest {
+		/*background-color: yellow;    for debugging purposes  */
+		width: 33%;
+		float: left;
+		padding: 20px;
+		box-sizing: border-box;
+	}
+
+	
+
+}
+
+
+
+
+

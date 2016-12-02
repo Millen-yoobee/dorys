@@ -1,0 +1,81 @@
+  * {
+  font-family: /*Copperplate Gothic Light,*/ Verdana, Helvetica, Arial, Courier, Palatino, sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  width: 95%;
+
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #fedda1;
+}
+
+#busName {
+  color:  #d60000;   /*pomelo red*/
+  font-size: 40px;
+  text-align: center;
+} 
+
+.nav-btn {
+  display: none;
+}
+ 
+.nav {
+ /* background-color: pink;*/
+ /* color: green;*/
+  list-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav > li {
+  display: inline-block;
+}
+
+.nav a {
+  text-decoration: none;
+  color: red;
+  text-align: center;
+}
+
+hr {
+  color: grey;
+}
+
+footer { 
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+  } 
+
+
+
+@media all and (max-width: 830px) {
+ 
+  .nav {
+    text-align: left;
+    display: none;
+  }  
+  .nav > li {
+    display: block; 
+  }
+
+  .nav-btn {
+    display: block;
+/*    background-color: grey;*/
+ 
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer; 
+  }
+
+  .nav-btn:before {
+    color: red;    
+  }
+
+}
+

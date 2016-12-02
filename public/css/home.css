@@ -1,0 +1,9 @@
+
+#homepage {
+	margin: 0 auto;
+	text-align: center;
+	flex-basis: column;
+}
+
+/*@media all and (max-width: 830px) {
+*/
