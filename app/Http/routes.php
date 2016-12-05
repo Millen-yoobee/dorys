@@ -32,7 +32,8 @@ Route::get("view", "ViewController@index");
 
 Route::post("Checkout", "CheckoutController@index");
 
-Route::get("Reservation", "ReservationController@index");
+Route::get("Reserve", "ReserveController@index");
+Route::get("reserve", "ReserveController@index");
 
 Route::post("Gallery", "GalleryController@index");
 

@@ -1,0 +1,8 @@
+#reserve {
+	font-weight: bold;
+}
+
+.calendly-inline-widget {
+	min-width: 320px;
+	height: 580px;
+}

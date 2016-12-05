@@ -7,6 +7,7 @@
 
 		<!-- The above 3 meta tags must stay above -->
 		<title>@yield("title") </title>
+
 		<meta name="description" content="@yield('description')">
 		<meta name="keywords" content="@yield('keywords')">
 
@@ -14,12 +15,14 @@
 
 		<link rel="stylesheet" href="/css/styles.css">
 
+		@yield("styles")	
+
 		<script src="https://use.fontawesome.com/d199abc0f2.js"></script>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
+		@yield("scripts")	
 
-		@yield("styles")	
 
 	</head>
 
@@ -34,7 +37,7 @@
 				<ul class="nav">
 		  			<li id="menus"> <a href="/View" >View menus </a>	</li>
 		  			<li id="menulist"> <a href="/Listing">Order	</a>	</li>
-		  			<li> <a href="/Reserve">Reserve	</a>	</li>
+		  			<li id="reserve"> <a href="/reserve">Reserve	</a>	</li>
 		  			<li id="location"> <a href="/Location">Our Location </a> </li>
 		  			<li id="terms"> <a href="/Terms">Terms and conditions</a> 	</li>
 		  			<!-- <li> <a href="/Gallery">Gallery	</a>	</li> -->
