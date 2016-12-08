@@ -18,6 +18,7 @@ class CreateSetItems extends Migration
             $table->foreign("set_menu_id")->references("set_id")->on("set_menus");
             $table->integer("set_item_id")->unsigned();
             $table->foreign("set_item_id")->references("dish_id")->on("dishes");
+            $table->string("set_by");
             $table->timestamps();
         });
     }

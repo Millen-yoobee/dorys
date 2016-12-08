@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -7,6 +8,7 @@
 
 		<!-- The above 3 meta tags must stay above -->
 		<title>@yield("title") </title>
+
 		<meta name="description" content="@yield('description')">
 		<meta name="keywords" content="@yield('keywords')">
 
@@ -14,53 +16,55 @@
 
 		<link rel="stylesheet" href="/css/styles.css">
 
+		@yield("styles")	
+
 		<script src="https://use.fontawesome.com/d199abc0f2.js"></script>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
+		@yield("scripts")	
 
-		@yield("styles")	
 
 	</head>
 
-	<body> 
-		
-		
-		<a href="/" > <h1 id="busName"> Dory's Restaurant </h1></a>
-		<nav>	
-			<span class="nav-btn">
- 				<i class="fa fa-bars" aria-hidden="true"></i>
- 			</span>
-			<ul class="nav">
-	  			<li> <a href="/View" >View menus </a>	</li>
-	  			<li> <a href="/Listing">Order	</a>	</li>
-	  			<li> <a href="/Reserve">Reserve	</a>	</li>
-	  			<li> <a href="/Location">Our Location </a> </li>
-	  			<li> <a href="/Terms">Terms and conditions</a> 	</li>
-	  			<!-- <li> <a href="/Gallery">Gallery	</a>	</li> -->
-	  			<li> <a href="/About">About us	</a>	</li>
-			</ul>
-		</nav>
+	<div id="container">
+			
+		<div id="header">
+			<a href="/" > <h1 id="busName"> Dory's Admin </h1></a>
+			<nav>	
+				<span class="nav-btn">
+	 				<i class="fa fa-bars" aria-hidden="true"></i>
+	 			</span>
+				<ul class="nav">
+					@if (Auth::check())
+						<li id="categories">	<a href="/categories">	Categories 	</a></li>
+						<li id="dishes">   		<a href="/dishes"> 		Change dishes  	</a></li>
+						<li id="setmenus"> 		<a href="/setmenus"> 	Change set menus 	</a></li>
+						<li id="editterms">		<a href="/editterms"> 		Edit terms 	</a></li>
+						<li id="editabout">		<a href="/editabout">	Edit about us</a></li>
+			  			<li id="logout">		<a href="/logout">			Log out 	</a></li>
+ 		  			@endif
 
-		<br>
-		<hr>
-
-		<div id="main_container">
-			<!-- @include("partials._messages") --> <!-- may not need this  -->
-
- 			@yield("content")
-
+				</ul>
+			</nav>
 		</div>
 
 		<hr>
-		<footer>
+		
+		<div id="body">
+ 			@yield("content")
+		</div>
+
+		
+		<div id="footer">
 			<p> Call us on 097 123 1234</p>
 			<p> Copyright &copy; <?php echo date('jS M Y'); ?> </p>
-		</footer>
+		</div>
 	    
 	    @yield("scripts")
 
 		<script type="text/javascript" src="/js/scripts.js"> </script>
 
-	</body>
+	</div>
+
 </html>

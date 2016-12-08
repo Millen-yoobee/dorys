@@ -17,88 +17,77 @@ class SetMenusTableSeeder extends Seeder
 	            "price" => "2700.00",
 	            "duration" => "2",
 	            "by" => "millen",
-	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "name" => "Set 3100",
 	            "price" => "3100.00",
 	            "duration" => "2",
 	            "by" => "millen",
-	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "name" => "Set 3150",
 	            "price" => "3150.00",
 	            "duration" => "2",
 	            "by" => "millen",
-	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "name" => "Set 3500",
 	            "price" => "3500.00",
 	            "duration" => "2",
 	            "by" => "millen",
-	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "name" => "Set 4400",
 	            "price" => "4400.00",
 	            "duration" => "2",
 	            "by" => "millen",
-	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "name" => "Set 4900",
 	            "price" => "4900.00",
 	            "duration" => "2",
 	            "by" => "millen",
-	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+	            "created_at" => new\Carbon\Carbon
         	],
  	      	[
 	            "name" => "Set 5900",
 	            "price" => "5900.00",
 	            "duration" => "2",
 	            "by" => "millen",
-	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "name" => "Set A",
 	            "price" => "3250.00",
 	            "duration" => "4",
 	            "by" => "millen",
-	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "name" => "Set B",
 	            "price" => "4150.00",
 	            "duration" => "4",
 	            "by" => "millen",
-	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "name" => "Set C",
 	            "price" => "4600.00",
 	            "duration" => "4",
 	            "by" => "millen",
-	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "name" => "Set D",
 	            "price" => "4950.00",
 	            "duration" => "4",
 	            "by" => "millen",
-	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+	            "created_at" => new\Carbon\Carbon
         	]
         ]);
 

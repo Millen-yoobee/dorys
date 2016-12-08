@@ -18,8 +18,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "200.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Beef",
@@ -27,8 +26,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "180.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Beef",
@@ -36,8 +34,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "165.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Beef",
@@ -45,8 +42,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Chicken",
@@ -54,8 +50,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "190.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Chicken",
@@ -63,8 +58,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "155.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Chicken",
@@ -72,8 +66,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "200.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Chicken",
@@ -81,8 +74,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "160.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Chicken",
@@ -90,8 +82,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "200.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Chicken",
@@ -99,8 +90,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "150.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Chicken",
@@ -108,8 +98,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "200.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Chicken",
@@ -117,8 +106,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "160.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Chicken",
@@ -126,8 +114,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "165.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Chicken",
@@ -135,8 +122,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "155.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Chicken",
@@ -144,8 +130,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "155.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Chicken",
@@ -153,8 +138,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "375.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Chicken",
@@ -162,8 +146,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "150.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Chicken",
@@ -171,8 +154,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "165.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Chicken",
@@ -180,8 +162,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "170.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Chicken",
@@ -189,8 +170,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "150.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Chicken",
@@ -198,8 +178,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "165.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Chicken",
@@ -207,8 +186,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "160.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Chicken",
@@ -216,8 +194,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "375.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Chicken",
@@ -225,8 +202,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "365.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Chicken",
@@ -234,8 +210,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "375.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Egg",
@@ -243,8 +218,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "135.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Egg",
@@ -252,8 +226,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "135.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Egg",
@@ -261,8 +234,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "135.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Egg",
@@ -270,8 +242,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "135.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Fish",
@@ -279,8 +250,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "210.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Fish",
@@ -288,8 +258,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "190.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Fish",
@@ -297,8 +266,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "190.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Fish",
@@ -306,8 +274,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "170.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Fish",
@@ -315,8 +282,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "170.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Fish",
@@ -324,8 +290,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "180.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Fish",
@@ -333,8 +298,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "250.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Fish",
@@ -342,8 +306,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "225.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Fish",
@@ -351,8 +314,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Fish",
@@ -360,8 +322,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Fish",
@@ -369,8 +330,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Fish",
@@ -378,8 +338,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Fish",
@@ -387,8 +346,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Fish",
@@ -396,8 +354,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Fish",
@@ -405,8 +362,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Fish",
@@ -414,8 +370,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Noodles",
@@ -423,8 +378,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Noodles",
@@ -432,8 +386,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Pork",
@@ -441,8 +394,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "395.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Pork",
@@ -450,8 +402,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "125.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Pork",
@@ -459,8 +410,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "160.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Pork",
@@ -468,8 +418,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "150.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Shrimp",
@@ -477,8 +426,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "185.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Shrimp",
@@ -486,8 +434,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "145",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Shrimp",
@@ -495,8 +442,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "190.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Shrimp",
@@ -504,8 +450,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "190.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Shrimp",
@@ -513,8 +458,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "155.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Shrimp",
@@ -522,8 +466,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "180.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Shrimp",
@@ -531,8 +474,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "175.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Shrimp",
@@ -540,8 +482,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "195.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Shrimp",
@@ -549,8 +490,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "180.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Shrimp",
@@ -558,8 +498,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "175.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Shrimp",
@@ -567,8 +506,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "175.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Shrimp",
@@ -576,8 +514,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "175.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Shrimp",
@@ -585,8 +522,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "175.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Shrimp",
@@ -594,8 +530,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "285.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Soup",
@@ -603,8 +538,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "100.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Soup",
@@ -612,8 +546,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "115.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Soup",
@@ -621,8 +554,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "140.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Soup",
@@ -630,8 +562,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "100.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Soup",
@@ -639,8 +570,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "115.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Soup",
@@ -648,8 +578,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "140.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Soup",
@@ -657,8 +586,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "110.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Soup",
@@ -666,8 +594,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "130.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Soup",
@@ -675,8 +602,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "145.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Special Order",
@@ -684,8 +610,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "340.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Special Order",
@@ -693,8 +618,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "135.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Special Order",
@@ -702,8 +626,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "180.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Special Order",
@@ -711,8 +634,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "160.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Squid",
@@ -720,8 +642,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "145.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Squid",
@@ -729,8 +650,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "150.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Squid",
@@ -738,8 +658,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "160.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Tokwa",
@@ -747,8 +666,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "120.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Toppings",
@@ -756,8 +674,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "150.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Toppings",
@@ -765,8 +682,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "160.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Toppings",
@@ -774,8 +690,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "145.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Toppings",
@@ -783,8 +698,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "150.00",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "category" => "Rice",
@@ -792,8 +706,7 @@ class DishesTableSeeder extends Seeder
 	            "price" => "",
 	            "image" => "friedchicken.jpg",
 	            "add_upd_by" => "millen",
- 	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+ 	            "created_at" => new\Carbon\Carbon
         	]
         ]);
 

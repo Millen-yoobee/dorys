@@ -26,4 +26,30 @@ class HomeController extends Controller
     {
         return view('home.index');
     }
+
+    public function reserve()
+    {
+        return view('home.reserve');
+    }
+
+    public function location()
+    {
+        return view('home.location');
+    }
+
+    public function terms()
+    {
+        return view('home.terms');
+    }
+
+    public function about()
+    {
+        return view('home.about');
+    }
+
+    public function gallery()
+    {
+        return view("home.gallery");
+    }
+
 }

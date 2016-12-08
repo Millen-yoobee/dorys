@@ -16,28 +16,25 @@ class UsersTableSeeder extends Seeder
 	            "fname" => "Homer",
 	            "lname" => "Ramos",
 	            "email" => "mil@free.net.nz",
-	            "login" => "homer",
+	            "username" => "homer",
 	            "password" => "$2y$10$036T8pMkiY7H.bOIkbnRnOOSc5wrT8ZEpA2xfwIR2mfJwlyp5YbKa",
-	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "fname" => "Abby",
 	            "lname" => "Ramos",
 	            "email" => "abby.w.ramos@gmail.com",
-	            "login" => "abby",
+	            "username" => "abby",
 	            "password" => "$2y$10$036T8pMkiY7H.bOIkbnRnOOSc5wrT8ZEpA2xfwIR2mfJwlyp5YbKa",
-	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "fname" => "Millen",
 	            "lname" => "Wong",
 	            "email" => "millen.c.wong@gmail.com",
-	            "login" => "millen",
+	            "username" => "millen",
 	            "password" => "$2y$10$036T8pMkiY7H.bOIkbnRnOOSc5wrT8ZEpA2xfwIR2mfJwlyp5YbKa",
-	            "created_at" => new\Carbon\Carbon,
-	            "updated_at" => new\Carbon\Carbon
+	            "created_at" => new\Carbon\Carbon
         	]
         ]);
     }

@@ -13,6 +13,8 @@
 
 		<meta name="robots" content="noindex, nofollow">
 
+		@yield("meta")	
+
 		<link rel="stylesheet" href="/css/styles.css">
 
 		@yield("styles")	
@@ -35,13 +37,23 @@
 	 				<i class="fa fa-bars" aria-hidden="true"></i>
 	 			</span>
 				<ul class="nav">
-		  			<li id="menus"> <a href="/View" >View menus </a>	</li>
-		  			<li id="menulist"> <a href="/Listing">Order	</a>	</li>
-		  			<li id="reserve"> <a href="/reserve">Reserve	</a>	</li>
-		  			<li id="location"> <a href="/Location">Our Location </a> </li>
-		  			<li id="terms"> <a href="/Terms">Terms and conditions</a> 	</li>
-		  			<!-- <li> <a href="/Gallery">Gallery	</a>	</li> -->
-		  			<li id="about"> <a href="/About">About us	</a>	</li>
+					@if (Auth::check())
+						<li id="categories">	<a href="Categories">	Categories 	</a></li>
+						<li id="dishes">   		<a href="Dishes"> 		Dishes  	</a></li>
+						<li id="setmenus"> 		<a href="Setmenus"> 	Set menus 	</a></li>
+						<li id="tandc">	   		<a href="Tandc"> 		Edit terms 	</a></li>
+						<li id="editabout">		<a href="Editabout">	Edit about us</a></li>
+			  			<li id="logout">		<a href="/">			Log out 	</a></li>
+		  			@else
+			  			<li id="menus"> <a href="/View" >View menus </a>	</li>
+			  			<li id="menulist"> <a href="/Listing">Order	</a>	</li>
+			  			<li id="reserve"> <a href="/reserve">Reserve	</a>	</li>
+			  			<li id="location"> <a href="/Location">Our Location </a> </li>
+			  			<li id="terms"> <a href="/Terms">Terms and conditions</a> 	</li>
+			  			<!-- <li> <a href="/Gallery">Gallery	</a>	</li> -->
+			  			<li id="about"> <a href="/About">About us	</a>	</li>
+ 		  			@endif
+
 				</ul>
 			</nav>
 		</div>

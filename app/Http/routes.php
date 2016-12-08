@@ -14,49 +14,50 @@
 
 Route::get("/", "HomeController@index");
 
-Route::get("Terms", "TermsController@index");
-Route::get("terms", "TermsController@index");
+Route::get("Location", "HomeController@location");
+Route::get("location", "HomeController@location");
 
-Route::get("About", "AboutController@index");
-Route::get("about", "AboutController@index");
+Route::get("Terms", "HomeController@terms");
+Route::get("terms", "HomeController@terms");
 
-Route::get("Location", "LocationController@index");
-Route::get("location", "LocationController@index");
+Route::get("About", "HomeController@about");
+Route::get("about", "HomeController@about");
+
+Route::get("Gallery", "HomeController@gallery");
+Route::get("gallery", "HomeController@gallery");
 
 Route::get("Listing", "ListingController@index");
 Route::get("listing", "ListingController@index");
 
-Route::get("View", "ViewController@index");
 Route::get("view", "ViewController@index");
 // Route::get("menus", "MenusController@index");
 
 Route::post("Checkout", "CheckoutController@index");
 
-Route::get("Reserve", "ReserveController@index");
-Route::get("reserve", "ReserveController@index");
-
-Route::post("Gallery", "GalleryController@index");
-
-Route::get("Login", "LoginController@index");
+Route::get("Reserve", "HomeController@reserve");
+Route::get("reserve", "HomeController@reserve");
 
 Route::get("Admin", "AdminController@index")->middleware("auth");
-Route::get("Password", "PasswordController@index")->middleware("auth");
+Route::get("admin", "AdminController@index")->middleware("auth");
 
-Route::get("AddCat", "AddCatController@index")->middleware("auth");
-Route::get("DeleteCat", "DeleteCatController@index")->middleware("auth");
+// Route::get("Password", "PasswordController@index")->middleware("auth");
 
-Route::get("AddItem", "AddItemController@index")->middleware("auth");
-Route::get("EditItem", "EditItemController@index")->middleware("auth");
-Route::get("DeleteItem", "DeleteItemController@index")->middleware("auth");
+Route::get("categories", "CategoriesController@index")->middleware("auth");
 
-Route::get("AddSet", "AddSetController@index")->middleware("auth");
-Route::get("EditSet", "EditSetController@index")->middleware("auth");
-Route::get("DeleteSet", "DeleteSetController@index")->middleware("auth");
+Route::get("dishes", "DishesController@index")->middleware("auth");
 
-Route::get("EditTermsConditions", "EditTermsConditionsController@index")->middleware("auth");
-Route::post("EditAboutUs", "EditAboutUsController@index")->middleware("auth");
+Route::get("setmenus", "SetmenusController@index")->middleware("auth");
 
 
+Route::get("editterms", "EditTermsController@index")->middleware("auth");
+
+Route::get("editabout", "EditaboutController@index")->middleware("auth");
+
+Route::get("logout", "HomeController@index")->middleware("auth");
+
+
+
+Route::get("Auth", ['as' => 'auth.register', 'uses' => 'Auth\AuthController@showRegistrationForm']);
 
 Route::auth();
 

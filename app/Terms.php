@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Setmenus extends Model
+class Terms extends Model
 {
     //
 }

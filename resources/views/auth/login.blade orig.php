@@ -1,19 +1,4 @@
-@extends("admin")
-
-@section("title", "Login")
-
-@section("description", "Login page")
-
-<!-- @section("keywords","Dory's restaurant")
- -->
-@section("meta")
-    <meta name="robots" content="noindex, nofollow">
-@endsection
-
-@section("styles")
-    <link rel="stylesheet" href="/css/login.css">
-@endsection
-
+@extends('layouts.app')
 
 @section('content')
 <div class="container">
@@ -24,7 +9,6 @@
                 <div class="panel-body">
                     <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
                         {{ csrf_field() }}
-
 
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
                             <label for="email" class="col-md-4 control-label">E-Mail Address</label>
@@ -73,7 +57,6 @@
                                 <a class="btn btn-link" href="{{ url('/password/reset') }}">Forgot Your Password?</a>
                             </div>
                         </div>
-                        
                     </form>
                 </div>
             </div>
