@@ -49,7 +49,7 @@ Route::get("dishes", "DishesController@index")->middleware("auth");
 Route::get("setmenus", "SetmenusController@index")->middleware("auth");
 
 
-Route::get("editterms", "EditTermsController@index")->middleware("auth");
+Route::get("editterms", "EditTermsController@show")->middleware("auth");
 
 Route::get("aboutus", "EditaboutController@show")->middleware("auth");
 Route::get("editabout", "EditaboutController@edit")->middleware("auth");

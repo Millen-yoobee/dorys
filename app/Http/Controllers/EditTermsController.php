@@ -21,4 +21,19 @@ class EditTermsController extends Controller
 	    //     return view("categories.index", compact("allDishes", "allSetMenus"));
     }
 
+    public function show()
+    {
+    
+	    // return  ("Edit Terms page - under construction");
+        $id = 1;
+        $term = Terms::findOrFail($id);
+
+        $allTwos = Terms::where("duration", 2) 
+        	-> orderBy("name")
+        	-> get();
+        $allFours = Terms::where("duration", 4)
+        	-> orderBy("name")
+        	-> get();
+        return view("editterms.show", compact("term", "allTwos", "allFours"));
+    }
 }

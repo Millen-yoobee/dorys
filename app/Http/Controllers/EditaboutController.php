@@ -16,7 +16,7 @@ class EditaboutController extends Controller
 	    $allAbout = Abouts::all();
 	    // 	$allSetMenus = SetMenus::all();
 
-	    return view("aboutediting.index", compact("allAbout"));
+	    return view("editabout.index", compact("allAbout"));
 
 
     }
@@ -25,7 +25,7 @@ class EditaboutController extends Controller
     {
         $id = 1;
         $about = Abouts::findOrFail($id);
-        return view("aboutediting.show", compact("about"));
+        return view("editabout.show", compact("about"));
 
 
     }
@@ -34,7 +34,7 @@ class EditaboutController extends Controller
     {
         $id = 1;
         $about = Abouts::findOrFail($id);
-        return view("aboutediting.edit", compact("about"));
+        return view("editabout.edit", compact("about"));
 
 
     }
@@ -45,21 +45,21 @@ class EditaboutController extends Controller
         $newAbout->about_by = "to be added";
         $newAbout->updated_at = new\Carbon\Carbon;
         $newAbout->save();
-        return redirect("/EditaboutController@index");
+        return redirect("/EditaboutController@show");
     }
 
     public function update(Request $request)
     {
-    	// $newAbout = new About();
-
-    	// $terabout
-    	// tc_by
-    	// updated_at
-	    // $allTerms = Terms::all();
-	    // // 	$allSetMenus = SetMenus::all();
-
-	    // return view("aboutediting.index", compact("allTerms"));
-
-	    
+        $id = 1;
+        $about = Abouts::findOrFail($id);
+        $about->textarea = $request->textarea;
+        $about->about_by = "to be added";
+        $about->updated_at = new\Carbon\Carbon;
+        
+        $about->save();
+	    // Session::flash("success", "The About Us section was updated successfully.");
+        return redirect("/EditaboutController@show");
     }
+
+    
 }

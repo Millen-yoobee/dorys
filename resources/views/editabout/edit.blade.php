@@ -11,7 +11,7 @@
 
 @section('content')
     
-    <div class="aboutediting">
+    <div class="editabout">
 	    
 
 
