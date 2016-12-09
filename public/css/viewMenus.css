@@ -12,11 +12,6 @@ img {
 }
 
 
-.latest {
-	height:  350px;
-}
-
-
 #dishprice {
 	display: flex;
 	justify-content: space-between;
@@ -33,6 +28,7 @@ img {
 		width: 33%;
 		float: left;
 		padding: 20px;
+		height:  350px;
 		box-sizing: border-box;
 	}
 

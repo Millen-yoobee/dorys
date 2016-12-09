@@ -29,7 +29,7 @@ Route::get("gallery", "HomeController@gallery");
 Route::get("Listing", "ListingController@index");
 Route::get("listing", "ListingController@index");
 
-Route::get("view", "ViewController@index");
+Route::get("View", "ViewController@index");
 // Route::get("menus", "MenusController@index");
 
 Route::post("Checkout", "CheckoutController@index");
@@ -51,7 +51,10 @@ Route::get("setmenus", "SetmenusController@index")->middleware("auth");
 
 Route::get("editterms", "EditTermsController@index")->middleware("auth");
 
-Route::get("editabout", "EditaboutController@index")->middleware("auth");
+Route::get("aboutus", "EditaboutController@show")->middleware("auth");
+Route::get("editabout", "EditaboutController@edit")->middleware("auth");
+Route::post("updateabout", "EditaboutController@update")->middleware("auth");
+
 
 Route::get("logout", "HomeController@index")->middleware("auth");
 

@@ -22,7 +22,7 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
-		@yield("scripts")	
+			
 
 
 	</head>
@@ -41,7 +41,7 @@
 						<li id="dishes">   		<a href="/dishes"> 		Change dishes  	</a></li>
 						<li id="setmenus"> 		<a href="/setmenus"> 	Change set menus 	</a></li>
 						<li id="editterms">		<a href="/editterms"> 		Edit terms 	</a></li>
-						<li id="editabout">		<a href="/editabout">	Edit about us</a></li>
+						<li id="aboutus">		<a href="/aboutus">	About us</a></li>
 			  			<li id="logout">		<a href="/logout">			Log out 	</a></li>
  		  			@endif
 
@@ -61,10 +61,12 @@
 			<p> Copyright &copy; <?php echo date('jS M Y'); ?> </p>
 		</div>
 	    
-	    @yield("scripts")
 
-		<script type="text/javascript" src="/js/scripts.js"> </script>
 
 	</div>
+
+	@yield("scripts")
+
+	<script type="text/javascript" src="/js/scripts.js"> </script>
 
 </html>

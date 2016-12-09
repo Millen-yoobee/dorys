@@ -19,7 +19,7 @@ class CreateDishesTable extends Migration
             $table->string("name", 50)->unique();
             $table->decimal("price", 7, 2);
             $table->string("image", 100);
-            $table->string("add_upd_by");
+            $table->string("add_upd_by", 50);
             $table->timestamps();
         });
     }

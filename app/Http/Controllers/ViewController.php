@@ -11,6 +11,7 @@ class ViewController extends Controller
 {
     public function index()
     {
+      
         $allDishes = Dishes::all();
         
 

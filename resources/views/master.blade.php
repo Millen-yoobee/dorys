@@ -41,8 +41,8 @@
 						<li id="categories">	<a href="Categories">	Categories 	</a></li>
 						<li id="dishes">   		<a href="Dishes"> 		Dishes  	</a></li>
 						<li id="setmenus"> 		<a href="Setmenus"> 	Set menus 	</a></li>
-						<li id="tandc">	   		<a href="Tandc"> 		Edit terms 	</a></li>
-						<li id="editabout">		<a href="Editabout">	Edit about us</a></li>
+						<li id="editterms">	   		<a href="editterms"> 		Edit terms 	</a></li>
+						<li id="aboutus">		<a href="aboutus">	About us</a></li>
 			  			<li id="logout">		<a href="/">			Log out 	</a></li>
 		  			@else
 			  			<li id="menus"> <a href="/View" >View menus </a>	</li>

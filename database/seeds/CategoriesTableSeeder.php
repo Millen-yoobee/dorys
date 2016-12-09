@@ -15,12 +15,12 @@ class CategoriesTableSeeder extends Seeder
 
         	[
 	            "name" => "Beef",
-	            "by_id" => "8",
+	            "by_id" => "millen",
 	            "created_at" => new\Carbon\Carbon
         	],
         	[
 	            "name" => "Chicken",
-	            "by_id" => "8",
+	            "by_id" => "millen",
 	            "created_at" => new\Carbon\Carbon
         	]
 

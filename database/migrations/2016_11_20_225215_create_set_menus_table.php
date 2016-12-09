@@ -17,7 +17,7 @@ class CreateSetMenusTable extends Migration
             $table->string("name", 20);
             $table->decimal("price", 7, 2);
             $table->integer("duration");
-            $table->string("by");
+            $table->string("by_id", 50);
             $table->timestamps();
         });
     }

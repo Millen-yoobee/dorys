@@ -14,6 +14,9 @@ class CreateTermsAndConditionsTable extends Migration
     {
         Schema::create('terms', function (Blueprint $table) {
             $table->increments('id');
+            $table->text("two");
+            $table->text("four");
+            $table->string("tc_by", 50);
             $table->timestamps();
         });
     }

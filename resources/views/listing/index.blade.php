@@ -22,6 +22,7 @@
 
 			@foreach ($allDishes as $dish)
 				<div class="dishItem">
+				<a href="/deleteproduct/{{ $dish->dish_id }}">Delete</a>
 				@if ( $dish->price > 0 )
 						<p id="dishName"> {{ $dish->name }} </p>
 						<p> Php {{ $dish->price }} </p>
