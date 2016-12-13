@@ -58,7 +58,7 @@ class EditaboutController extends Controller
         
         $about->save();
 	    // Session::flash("success", "The About Us section was updated successfully.");
-        return redirect("/EditaboutController@show");
+        return redirect("/aboutus");
     }
 
     

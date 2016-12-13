@@ -20,7 +20,6 @@ Route::get("location", "HomeController@location");
 Route::get("Terms", "HomeController@terms");
 Route::get("terms", "HomeController@terms");
 
-Route::get("About", "HomeController@about");
 Route::get("about", "HomeController@about");
 
 Route::get("Gallery", "HomeController@gallery");
@@ -43,21 +42,32 @@ Route::get("admin", "AdminController@index")->middleware("auth");
 // Route::get("Password", "PasswordController@index")->middleware("auth");
 
 Route::get("categories", "CategoriesController@index")->middleware("auth");
+Route::get("addcategory", "CategoriesController@add")->middleware("auth");
+Route::post("create-category", "CategoriesController@create")->middleware("auth");
+Route::get("/editcategory/{id}", "CategoriesController@edit")->middleware("auth");
+Route::post("/updatecategory/{id}", "CategoriesController@update")->middleware("auth");
+Route::get("/deletecategory/{id}", "CategoriesController@delete")->middleware("auth");
+Route::post("/removecategory/{id}", "CategoriesController@remove")->middleware("auth");
 
 Route::get("dishes", "DishesController@index")->middleware("auth");
 
 Route::get("setmenus", "SetmenusController@index")->middleware("auth");
 
 
-Route::get("editterms", "EditTermsController@show")->middleware("auth");
+Route::get("termsconds", "EditTermsController@show")->middleware("auth");
+Route::get("editterms2", "EditTermsController@edit2")->middleware("auth");
+Route::get("editterms4", "EditTermsController@edit4")->middleware("auth");
+Route::post("updateterms2", "EditTermsController@update2")->middleware("auth");
+Route::post("updateterms4", "EditTermsController@update4")->middleware("auth");
+
 
 Route::get("aboutus", "EditaboutController@show")->middleware("auth");
 Route::get("editabout", "EditaboutController@edit")->middleware("auth");
 Route::post("updateabout", "EditaboutController@update")->middleware("auth");
 
 
-Route::get("logout", "HomeController@index")->middleware("auth");
 
+Route::get("logout", "HomeController@index")->middleware("auth");
 
 
 Route::get("Auth", ['as' => 'auth.register', 'uses' => 'Auth\AuthController@showRegistrationForm']);

@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use App\Http\Requests;
 use Illuminate\Http\Request;
 
+use App\Terms;
+use App\Abouts;
+
 class HomeController extends Controller
 {
     /**
@@ -39,12 +42,17 @@ class HomeController extends Controller
 
     public function terms()
     {
-        return view('home.terms');
+
+        $id = 1;
+        $term = Terms::findOrFail($id); 
+        return view('home.terms', compact("term"));
     }
 
     public function about()
     {
-        return view('home.about');
+        $id = 1;
+        $about = Abouts::findOrFail($id);
+        return view("home.about", compact("about"));
     }
 
     public function gallery()

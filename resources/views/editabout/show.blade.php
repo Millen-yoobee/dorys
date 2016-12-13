@@ -15,7 +15,7 @@
 	
 	
 	<div>
-		 <p> {{ $about->textarea }}</p>
+		 <p> {!! $about->textarea !!}</p>
 	</div>
 	
 	<br>

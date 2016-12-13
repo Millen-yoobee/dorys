@@ -12,19 +12,21 @@
 @section('content')
    
     <div class="categoriescontainer">
-        <div>
-			<?php foreach($allCategories as $category): ?>
-				<article class="latest">
-
+    	@if ( count ($allCategories) )
+			@foreach ($allCategories as $category)	
+				<div class="categoryline">
+					<p> {!! $category->name !!}</p>
 					<div>
-						<p> {{ $category->name }}</p>
-						
-						<input type="checkbox" name="options[]" value="{{ $category->id }}">
+						<a href="/deletecategory/{{ $category->id }}">Delete</a>
+						<a href="/editcategory/{{ $category->id }}">Edit</a>
 					</div>
-					
-				</article>
-			<?php endforeach ?>
-		</div>
+				</div>
+			@endforeach
+		@endif
+		<br>
+		<br>
+		<a href="/addcategory">Add a new category</a>
+
     </div>
     
 @endsection

@@ -19,14 +19,25 @@
 	
 	<div>
 		
-		 <p> {{ $about->textarea }}</p>
+		 <p> {!! $term->two !!}</p>
 	
 	</div>
 	
-	<br>
+	<a href="/editterms2">Edit</a>
+
+	<hr>
+
+	<h4>
+		For four-hour set menus
+	</h4>
+	
+	<div>
+		 <p> {!! $term->four !!}</p>
+	</div>
+
 	<br>
 
-	<a href="/editabout">Edit</a>
+	<a href="/editterms4">Edit</a>
 
     
 @endsection

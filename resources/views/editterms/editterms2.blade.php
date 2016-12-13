@@ -1,26 +1,31 @@
 @extends("admin") 
 
-@section("title", "Edit About")
+@section("title", "Edit Terms 2")
 
-@section("description", "Edit form for About Us")
+@section("description", "Edit form for Terms and Conditions for 2-hour set menus")
 
 @section("styles")
-    <link rel="stylesheet" href="/css/editabout.css">
-@endsection
+<!--     <link rel="stylesheet" href="/css/editterms.css">
+ -->
+ @endsection
  
 
 @section('content')
     
-    <div class="editabout">
+    <div class="editterms">
 	    
+        <h3>Terms and Conditions</h3>
 
 
-	    <form action="/updateabout" method="post">
+        <form action="/updateterms2" method="post">
             {{ csrf_field()  }}
-            <h3>About us</h3>
+
+            <h4>
+                For two-hour set menus
+            </h4>
 
             <td>
-                <textarea name="textarea" id="textarea" width="400" height="500"> {{ $about->textarea }} </textarea>
+                <textarea name="textarea" id="textarea" width="400" height="500"> {{ $term->two }} </textarea>
             </td>
             <br>
             <div>
@@ -31,7 +36,7 @@
             </div>
     
             <br>
-		</form>
+        </form>
 
     </div>
     
