@@ -42,7 +42,7 @@
 						<li id="setmenus"> 		<a href="/setmenus"> 	Edit Set Menus 	</a></li>
 						<li id="termsconds">	<a href="/termsconds"> 	Edit Terms and Conditions 	</a></li>
 						<li id="aboutus">		<a href="/aboutus">		Edit About Us</a></li>
-			  			<li id="logout">		<a href="/">			Log out 	</a></li>
+			  			<li id="logout">		<a href="/logout">			Log out 	</a></li>
  		  			@endif
 
 				</ul>

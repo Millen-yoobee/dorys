@@ -25,13 +25,14 @@ Route::get("about", "HomeController@about");
 Route::get("Gallery", "HomeController@gallery");
 Route::get("gallery", "HomeController@gallery");
 
-Route::get("Listing", "ListingController@index");
 Route::get("listing", "ListingController@index");
 
-Route::get("View", "ViewController@index");
-// Route::get("menus", "MenusController@index");
+Route::post("cart/{id}", "CheckoutController@index");
 
-Route::post("Checkout", "CheckoutController@index");
+
+
+Route::get("view", "ViewController@index");
+// Route::get("menus", "MenusController@index");
 
 Route::get("Reserve", "HomeController@reserve");
 Route::get("reserve", "HomeController@reserve");
@@ -50,6 +51,10 @@ Route::get("/deletecategory/{id}", "CategoriesController@delete")->middleware("a
 Route::post("/removecategory/{id}", "CategoriesController@remove")->middleware("auth");
 
 Route::get("dishes", "DishesController@index")->middleware("auth");
+Route::get("adddish", "DishesController@create")->middleware("auth");
+
+Route::get("editdish", "DishesController@edit")->middleware("auth");
+Route::get("deletedish", "DishesController@delete")->middleware("auth");
 
 Route::get("setmenus", "SetmenusController@index")->middleware("auth");
 
@@ -67,7 +72,7 @@ Route::post("updateabout", "EditaboutController@update")->middleware("auth");
 
 
 
-Route::get("logout", "HomeController@index")->middleware("auth");
+// Route::get("logout", "HomeController@index")->middleware("auth");  NOT NEEDED
 
 
 Route::get("Auth", ['as' => 'auth.register', 'uses' => 'Auth\AuthController@showRegistrationForm']);

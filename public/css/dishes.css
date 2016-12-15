@@ -1,0 +1,25 @@
+
+h3 {
+	text-align: center;	
+}
+
+#dishName {
+	width: 50%;
+}
+
+.dishItem {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#menulist {
+	font-weight: bold;
+}
+/*
+@media all and (min-width: 960px) {
+
+	h3 {
+		display: none;
+	}
+}*/

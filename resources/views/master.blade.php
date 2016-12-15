@@ -41,12 +41,12 @@
 						<li id="categories">	<a href="/categories">	Edit Categories 	</a></li>
 						<li id="dishes">   		<a href="/dishes"> 		Edit Dishes  	</a></li>
 						<li id="setmenus"> 		<a href="/setmenus"> 	Edit Set Menus 	</a></li>
-						<li id="termsconds">	   		<a href="termsconds"> 		Edit Terms and Conditions 	</a></li>
+						<li id="termsconds">	<a href="termsconds"> 	Edit Terms and Conditions 	</a></li>
 						<li id="aboutus">		<a href="aboutus">	Edit About Us</a></li>
-			  			<li id="logout">		<a href="/">			Log out 	</a></li>
+			  			<li id="logout">		<a href="/logout">			Log out 	</a></li>
 		  			@else
-			  			<li id="menus"> <a href="/View" >View menus </a>	</li>
-			  			<li id="menulist"> <a href="/Listing">Order	</a>	</li>
+			  			<li id="menus"> <a href="/view">View menus </a>	</li>
+			  			<li id="menulist"> <a href="/listing">Order	</a>	</li>
 			  			<li id="reserve"> <a href="/reserve">Reserve	</a>	</li>
 			  			<li id="location"> <a href="/Location">Our Location </a> </li>
 			  			<li id="terms"> <a href="/Terms">Terms and conditions</a> 	</li>
@@ -59,6 +59,8 @@
 		</div>
 
 		<hr>
+
+		@include('partials._Cart')   {{-- added by Richard --}}
 		
 		<div id="body">
  			@yield("content")

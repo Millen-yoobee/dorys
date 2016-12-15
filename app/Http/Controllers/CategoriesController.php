@@ -66,7 +66,7 @@ class CategoriesController extends Controller
 
         $category->save();
         // Session::flash("success", "The About Us section was updated successfully.");
-        return redirect("/categories.edit", compact("id"));
+        return redirect("/categories");
         
     }
 
