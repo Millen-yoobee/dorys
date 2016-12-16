@@ -16,6 +16,16 @@ h3 {
 #menulist {
 	font-weight: bold;
 }
+
+.orderItem {
+	display: flex;
+	justify-content: space-between;
+/*	align-items: center;*/
+	width: 80%;
+/*/*	direction: ltr;
+*/	text-align: justify;*/
+
+}
 /*
 @media all and (min-width: 960px) {
 

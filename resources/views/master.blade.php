@@ -60,7 +60,6 @@
 
 		<hr>
 
-		@include('partials._Cart')   {{-- added by Richard --}}
 		
 		<div id="body">
  			@yield("content")

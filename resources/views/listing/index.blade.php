@@ -15,6 +15,8 @@
 
 @section("content")
 
+@include('partials._Cart')   {{-- added by Richard --}}
+
 	<h3>Menu list </h3>
 
 	<div class="menuList">

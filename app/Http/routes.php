@@ -27,7 +27,9 @@ Route::get("gallery", "HomeController@gallery");
 
 Route::get("listing", "ListingController@index");
 
-Route::post("cart/{id}", "CheckoutController@index");
+Route::post("cart/{id}", "OrderController@index");
+
+Route::get("checkout", "CheckoutController@index");
 
 
 

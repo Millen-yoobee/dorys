@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests;
 use Illuminate\Http\Request;
 
+use Mail;
 use App\Terms;
 use App\Abouts;
 
@@ -32,12 +33,12 @@ class HomeController extends Controller
 
     public function reserve()
     {
-        
-        Mail::send('emails.reminder', ['user' => $user], function ($m) use ($user) {
-            $m->from('hello@app.com', 'Your Application');
+        // Copied from the Laravel doc'n
+        // Mail::send('emails.reminder', ['user' => $user], function ($m) use ($user) {
+        //     $m->from('hello@app.com', 'Your Application');
 
-            $m->to($user->email, $user->name)->subject('Your Reminder!');
-        });
+        //     $m->to($user->email, $user->name)->subject('Your Reminder!');
+        // });
 
         return view('home.reserve');
     }

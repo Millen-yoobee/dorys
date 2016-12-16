@@ -36,7 +36,7 @@ class DishesController extends Controller
 
         $dish->name = $request->name;
 
-        &dish->price = $request->price;
+        $dish->price = $request->price;
 
         $dish->add_upd_by = \Auth::user()->username;
 
