@@ -16,7 +16,7 @@
 			
 			<article class="latest">
 				
-				<h1>Add New Category</h1>
+				<h3>Add a category</h3>
 				<form method="post" action="/create-category">
 					 {{ csrf_field()  }}
 
@@ -29,7 +29,7 @@
 					</div>
 
 					<div>
-						<input type="submit" class="btn btn-primary" value="Create Category">
+						<input type="submit" class="button btn btn-primary" value="Create category">
 					</div>
 
 				</form>

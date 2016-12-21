@@ -30,7 +30,10 @@ Route::get("listing", "ListingController@index");
 Route::post("cart/{id}", "OrderController@index");
 
 Route::get("checkout", "CheckoutController@index");
-
+Route::post("checkout/{id}", "CheckoutController@update");
+Route::get("pay", "CheckoutController@pay");
+Route::get("text", "CheckoutController@text");
+Route::get("email", "CheckoutController@email");
 
 
 Route::get("view", "ViewController@index");
@@ -53,10 +56,17 @@ Route::get("/deletecategory/{id}", "CategoriesController@delete")->middleware("a
 Route::post("/removecategory/{id}", "CategoriesController@remove")->middleware("auth");
 
 Route::get("dishes", "DishesController@index")->middleware("auth");
-Route::get("adddish", "DishesController@create")->middleware("auth");
+Route::get("/add-dish", "DishesController@add")->middleware("auth");
+Route::post("/create-dish", "DishesController@create")->middleware("auth");
 
-Route::get("editdish", "DishesController@edit")->middleware("auth");
-Route::get("deletedish", "DishesController@delete")->middleware("auth");
+
+Route::get("edit-dish/{id}", "DishesController@edit")->middleware("auth");
+Route::post("update-dish/{id}", "DishesController@update")->middleware("auth");
+
+
+Route::get("delete-dish/{id}", "DishesController@delete")->middleware("auth");
+Route::post("remove-dish/{id}", "DishesController@remove")->middleware("auth");
+
 
 Route::get("setmenus", "SetmenusController@index")->middleware("auth");
 

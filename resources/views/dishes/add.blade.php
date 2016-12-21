@@ -1,8 +1,8 @@
 @extends("admin") 
 
-@section("title", "Dishes")
+@section("title", "New dish")
 
-@section("description", "Form for creating a new dish")
+@section("description", "Form for entering details of a new dish")
 
 
 @section("styles")
@@ -22,18 +22,58 @@
 	<br>
 
 	<div class="menuList">
-		@if (count ($allDishes) )
+		<article class="latest">
+				
+			<form method="post" action="/create-dish" enctype="multipart/form-data">
+				 {{ csrf_field()  }}
 
-			@foreach ($allDishes as $dish)
-				<div class="dishItem">
-					<p id="dishName"> {{ $dish->name }} </p>
-					<p> Php {{ $dish->price }} </p>
-					<a href="/adddish/{{ $dish->dish_id }}">Add</a>
+				<div>
+					<div>
+						<label>Dish name</label>
+						<input type="text" name="name" value="{{ old('name') }}">
+						@if($errors->has('name'))
+							<span class="error">{{ $errors->first('name') }}</span>
+						@endif
+					</div>
+					<div>
+						<label>Category</label>
+						{{-- <input type="text" name="category" value="{{ old('category') }}"> --}}
+						<select name="category">
+							@foreach ($allCategories as $category)
+								<option value="{{ $category->name }}"> {{ $category->name }} </option>
+							@endforeach	
+						</select>
+
+
+						@if($errors->has('category'))
+							<span class="error">{{ $errors->first('category') }}</span>
+						@endif
+					</div>
+					<div>
+						<label>Price</label>
+						<input type="text" name="price" value="{{ old('price') }}">
+						@if($errors->has('price'))
+							<span class="error">{{ $errors->first('price') }}</span>
+						@endif
+					</div>
+					<div>
+						<label>Image</label>
+						<input type="file" name="image" placeholder="Dish image">
+						@if($errors->has('image'))
+							<span class="error">{{ $errors->first('image') }}</span>
+						@endif
+					</div>
+
 				</div>
-			@endforeach 
 
-		@endif
-	
+				<div>
+					<br>
+					<input type="submit" class="button btn-primary" value="Add the new dish">
+				</div>
+
+			</form>
+					
+		</article>	
 	</div>
 
     

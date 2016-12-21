@@ -16,17 +16,20 @@
 				
 		<h3>Edit a category</h3>
 		<br>
+
 		<form method="post" action="/updatecategory/{{ $category->id }}  ">
 			 {{ csrf_field()  }}
+
 			 	<p class="categoryline"> Change "{{ $category->name }}" to 
 					<input type="text" name="name" value="{{ $category->name }}">
 					@if($errors->has('name'))
 						<span class="error">{{ $errors->first('name') }}</span>
 					@endif
 				</p>	
+
 				<input type="submit" class="button" value="Update Category">
 		</form>
-			
+
     </div>
     
 @endsection

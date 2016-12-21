@@ -37,12 +37,12 @@
 	 			</span>
 				<ul class="nav">
 					@if (Auth::check())
-						<li id="categories">	<a href="/categories">	Edit Categories 	</a></li>
-						<li id="dishes">   		<a href="/dishes"> 		Edit Dishes  	</a></li>
-						<li id="setmenus"> 		<a href="/setmenus"> 	Edit Set Menus 	</a></li>
-						<li id="termsconds">	<a href="/termsconds"> 	Edit Terms and Conditions 	</a></li>
-						<li id="aboutus">		<a href="/aboutus">		Edit About Us</a></li>
-			  			<li id="logout">		<a href="/logout">			Log out 	</a></li>
+						<li id="categories">	<a href="/categories">Categories</a></li>
+						<li id="dishes">   		<a href="/dishes">Short Orders  	</a></li>
+						<li id="setmenus"> 		<a href="/setmenus">Set Menus 	</a></li>
+						<li id="termsconds">	<a href="/termsconds">Terms and Conditions 	</a></li>
+						<li id="aboutus">		<a href="/aboutus">About us </a></li>
+			  			<li id="logout">		<a href="/logout">Logout	</a></li>
  		  			@endif
 
 				</ul>

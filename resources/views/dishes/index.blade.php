@@ -15,9 +15,9 @@
         
     </div>
 
-	<h3>Short Dishes Orders </h3>
+	{{-- <h3>Short-Order Dishes </h3> --}}
 	
-	<a href="/adddish">Click to add a new dish</a>
+	<a href="/add-dish">Click to add a new dish</a>
 
 	<br>
 	<br>
@@ -29,8 +29,8 @@
 				<div class="dishItem">
 					<p id="dishName"> {{ $dish->name }} </p>
 					<p> Php {{ $dish->price }} </p>
-					<a href="/deletedish/{{ $dish->dish_id }}">Delete</a>
-					<a href="/editdish/{{ $dish->dish_id }}">Edit</a>
+					<a href="/delete-dish/{{ $dish->dish_id }}">Delete</a>
+					<a href="/edit-dish/{{ $dish->dish_id }}">Edit</a>
 				</div>
 			@endforeach 
 

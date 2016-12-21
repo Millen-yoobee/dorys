@@ -17,13 +17,13 @@ class DatabaseSeeder extends Seeder
 
         // $this->call(AboutsTableSeeder::class);
 
-        // $this->call(TermsTableSeeder::class);
+        $this->call(TermsTableSeeder::class);
 
         $this->call(CategoriesTableSeeder::class);
 
-        // $this->call(DishesTableSeeder::class);
+        $this->call(DishesTableSeeder::class);
 
-        // $this->call(SetMenusTableSeeder::class);
+        $this->call(SetMenusTableSeeder::class);
 
         // $this->call(SetItemsTableSeeder::class);
 

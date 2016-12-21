@@ -15,7 +15,7 @@ class CreateDishesTable extends Migration
         Schema::create('dishes', function (Blueprint $table) {
             $table->increments("dish_id");
 
-            $table->enum("category", ["Beef", "Chicken", "Egg", "Fish", "Noodles", "Pork", "Shrimp", "Soup", "Special Order", "Squid", "Tokwa", "Toppings", "Rice", "Dessert", "Drinks" ]);
+            $table->string("category", 100);
             $table->string("name", 50)->unique();
             $table->decimal("price", 7, 2);
             $table->string("image", 100);
