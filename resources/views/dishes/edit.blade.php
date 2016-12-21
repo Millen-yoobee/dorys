@@ -29,7 +29,7 @@
 				<div>
 					<div>
 					 	Change dish name "{{ $dish->name }}" to 
-							<input type="text" name="name" value={{ $dish->name }}>
+							<input type="text" name="name" value="{{ $dish->name }}">
 							@if($errors->has('name'))
 								<span class="error">{{ $errors->first('name') }}</span>
 							@endif
@@ -38,7 +38,7 @@
 
 					<div>
 						Change category "{{ $dish->category }}" to
-						<select name="category">
+						<select name="category" value="{{ $dish->category }}">
 							@foreach ($allCategories as $category)
 								<option> {{ $category->name }} </option>
 							@endforeach	

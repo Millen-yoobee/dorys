@@ -49,17 +49,19 @@ class DishesController extends Controller
         $newDish->category = $request->category;
         $newDish->price = $request->price;
 
-        $manager = new ImageManager();
-        $folder = "./images/Dishes";
-        $imagename = preg_replace("/[^0-9a-zA-Z]/", "", $request->name);
+        if( $request->hasFile('image') ) {
 
-        $dishImage = $manager->make($request->image);
-        $dishImage->fit(500, null, function($constraint) {
-            $constraint->upsize();   });
-        $dishImage->save($folder."/".$imagename.".jpg", 100);
+            $manager = new ImageManager();
+            $folder = "./images/Dishes";
+            $imagename = preg_replace("/[^0-9a-zA-Z]/", "", $request->name);
 
-        $newDish->image = $imagename.".jpg";
+            $dishImage = $manager->make($request->image);
+            $dishImage->fit(500, null, function($constraint) {
+                $constraint->upsize();   });
+            $dishImage->save($folder."/".$imagename.".jpg", 100);
 
+            $newDish->image = $imagename.".jpg";
+        }
 
         $newDish->add_upd_by = \Auth::user()->username;
     	$newDish->created_at = new\Carbon\Carbon;
@@ -84,11 +86,6 @@ class DishesController extends Controller
 
         public function update(Request $request, $id)
     {
-        if( $request->hasFile('image') ) {
-            die('Upload and update image');
-
-             $dish->image = $newFileName;
-        }
 
         $dish = Dishes::findOrFail($id);
 
@@ -110,11 +107,26 @@ class DishesController extends Controller
                 ]);
             }
 
-
         $dish->name = $request->name;
         $dish->category = $request->category;
+        $dish->price = $request->price;
         $dish->add_upd_by = \Auth::user()->username;
         $dish->updated_at = new\Carbon\Carbon;
+
+        if( $request->hasFile('image') ) {
+            // die('Upload and update image');
+
+            $manager = new ImageManager();
+            $folder = "./images/Dishes";
+            $imagename = preg_replace("/[^0-9a-zA-Z]/", "", $request->name);
+
+            $dishImage = $manager->make($request->image);
+            $dishImage->fit(500, null, function($constraint) {
+                $constraint->upsize();   });
+            $dishImage->save($folder."/".$imagename.".jpg", 100); 
+
+            $dish->image = $imagename.".jpg";
+        }
 
         $dish->save();
         // Session::flash("success", "The About Us section was updated successfully.");

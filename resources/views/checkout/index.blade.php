@@ -57,11 +57,12 @@
 			@endforeach
 
 		<br>
-	 	<div> <a class="btn" href="/pay"> Proceed to pay </a></div>
+	 	<div> <a class="btn" href=#> Proceed to pay </a></div>
+	 	{{-- <div> <a class="btn" href="/pay"> Proceed to pay </a></div> --}}
 	 	<br>
-	 	<div> <a class="btn" href="/email"> Email order</a></div>
+	 	{{-- <div> <a class="btn" href="/email"> Email order</a></div> --}}
 	 	<br>
-	 	<div> <a class="btn" href="/text"> Text order</a></div>
+	 	{{-- <div> <a class="btn" href="/text"> Text order</a></div> --}}
 	 	
 	 	
 
