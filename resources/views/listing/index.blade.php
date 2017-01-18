@@ -26,8 +26,7 @@
 				<form method="post" action="/cart/{{$dish->dish_id}}">
 					{!! csrf_field() !!}
 					<div class="dishItem">
-						{{-- <a href="/deleteproduct/{{ $dish->dish_id }}">Delete</a> --}}
-
+						
 						@if ( $dish->price > 0 )
 								<p id="dishName"> {{ $dish->name }} </p>
 								<p> Php {{ $dish->price }} </p>
@@ -50,7 +49,6 @@
 				</form>
 
 			@endforeach 
-			<button type="submit" > Add to order list </button>
 
 		
 		@endif

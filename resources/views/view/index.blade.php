@@ -19,13 +19,13 @@
 	<!-- <h2>Alphabetical listing of dishes</h2> -->
 	 <div>
 		 <?php foreach($allDishes as $dish): ?>
-			@if ( $dish->price > 0 )
+			@if ( $dish->price > 0 && $dish->image != "" )
 			 	<article class="latest">
 			 		<img src="/images/Dishes/{{ $dish->image }}">
 			 		<p id="dishname">{{ $dish->name }}</p>
 			 		<div id="dishprice">
 			 			<p>Php {{ $dish->price }} </p>
-			 			<input type="checkbox" name="options[]" value="{{ $dish->dish_id }}">
+			 			{{-- <input type="checkbox" name="options[]" value="{{ $dish->dish_id }}"> --}}
 			 		</div>
 		
 		 		</article>
